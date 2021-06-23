@@ -25,6 +25,7 @@ body{
     margin: 10px 0;
 }
 
+
 .send-btn{
     display: block;
     width: 100%;
@@ -41,4 +42,14 @@ body{
 
 .send-btn:hover{
     background-color: rgb(85, 84, 84);
+}
+
+.fillOut{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gender{
+    display: flex;
+    justify-content: space-between;
 }

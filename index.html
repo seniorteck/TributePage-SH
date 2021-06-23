@@ -26,12 +26,25 @@
             <input type="tel" class="user" placeholder="Phone Number" id="phonenumber">
             <label for="email" id="email-label">Email:</label>
             <input type="email" class="user" placeholder="email address" id="email">
-            <label for="date">Date:</label>
-            <input type="date" name="date" id="date">
-            <input type="radio" id="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female">
-            <label for="female">Female</label>
+            <div class="fillOut">
+                <div class="date-category">
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                
+                <div class="gender">
+                    <div class="maleGen">
+                        <input type="radio" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="femaleGen">
+                        <input type="radio" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            
+            </div>
+            
             <button class="send-btn">send</button>
         </form>
     </div>
